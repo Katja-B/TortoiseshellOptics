@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+	font-size:18px;
+	font-family: Helvetica;
+	color: black;
+	}
+	
+footer, #container {
+	display:block;
+	margin:auto;
+	width: 960px;
+	}
+	
+/* Header */
+
+header {
+	display:flex;
+	height: 31rem;
+	background-image: url("../images/glasses-bg.png");
+	background-size: cover;
+	}
