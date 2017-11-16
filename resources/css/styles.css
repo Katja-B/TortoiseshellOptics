@@ -50,7 +50,7 @@ h4 {
 	margin-bottom: 1rem;
 	}
 	
-#menu {
+#menuword {
 	display: none;
 	}
 	
@@ -175,7 +175,7 @@ footer img {
 
 /* Tablet screen */
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width : 1024px ){
 	
 	header {
 		height: 22rem;
@@ -218,7 +218,49 @@ footer img {
 		
 }
 
+@media only screen and (max-width: 820px) {
+	#slogan {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+		margin: 13rem auto auto auto;
+		}
+		
+	h1 {
+		margin: 0;
+		}	
+	}
+
 @media only screen and (max-width: 600px) {
+	
+	#menuword {
+		display: flex;
+		justify-content: flex-end;
+		text-transform: none;
+		font-weight: normal;
+		text-align: right;
+		padding: 0;
+		margin-top: 1rem;
+		margin-bottom: 1rem; 
+		margin-right: 2rem;
+		}
+	
+	ul {
+		display: none;
+		}
+	
+	#slogan {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+		margin: 13rem auto auto auto;
+		}
+		
+	h1 {
+		margin: 0;
+		}	
 	
 	main {
 		display: flex;
@@ -242,6 +284,158 @@ footer img {
 		margin: auto 2rem;
 		justify-content: space-between;
 		height: 8rem;
-	}
+		}
 	
 	}
+	
+@media only screen and (max-width: 480px) {
+		
+	html, footer {
+		margin: auto;
+		width: 100%;
+		display: flex;
+		}
+	
+	header {
+		display:flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		margin-top: 0;
+		height: 17rem;
+		background-image: url("../images/glasses-bg.png");
+		background-size: cover;
+		}
+		
+	#container {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content:space-between;
+		align-items: center;
+		margin-top: 0;
+		}
+		
+	#logo {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: center;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+		}
+		
+	#glasseswhite {
+		display: flex;
+		height: 1.5rem;
+		}
+	
+	#title {
+		display: none;
+		}
+	
+	#menuword {
+		display: flex;
+		justify-content: flex-end;
+		text-transform: none;
+		font-weight: normal;
+		text-align: right;
+		padding: 0;
+		margin-top: 1rem;
+		margin-bottom: 1rem; 
+		margin-right: 2rem;
+		}
+	
+	ul {
+		display: none;
+		}
+	
+	#slogan {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		margin: 9rem auto auto auto;
+		}
+		
+	h1 {
+		margin: 0;
+		width: 100%;
+		text-align: center;
+		background-color: white;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		text-transform: uppercase;
+		font-size: 1rem;
+		font-weight: bold;
+		line-height: 1.2;
+		}	
+	
+	#features {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin: 3.77rem auto;
+		height: auto;
+		}
+		
+	.feature {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin: auto;
+		margin-bottom: 1.54rem;
+		}
+		
+	#document {
+		width: 3.5rem;
+		margin-top: 0;
+		margin-bottom: 0;
+		}
+		
+	.feature h3 {
+		font-size: 0.77rem;
+		margin-top: 1rem;
+		line-height: 1.4;
+		}
+	
+	#moreinfo {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin: 0 auto auto auto;
+		}
+	
+	.extra {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		margin: 0 auto 4rem auto;
+		}
+	
+	.extra h2 {
+		width: 100%;
+		color: white;
+		text-transform: uppercase;
+		text-align: center;
+		font-size: 1rem;
+		font-weight: bold;
+		padding: 0.5rem 1.25rem;
+		margin-bottom: 1rem;
+		}
+	
+	.extra p {
+		font-size: 0.77rem;
+		padding: 2%;
+		line-height: 1.4;
+		}
+	
+	footer p {
+		display: none;
+		}
+	
+	footer {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		}
+}
