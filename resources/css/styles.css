@@ -5,10 +5,10 @@ html {
 	font-size:18px;
 	font-family: Helvetica;
 	color: black;
+	line-height: 1.4;
 	}
 	
 footer, #container {
-	display:block;
 	margin:auto;
 	width: 960px;
 	}
@@ -17,7 +17,158 @@ footer, #container {
 
 header {
 	display:flex;
+	flex-direction: column;
+	justify-content: flex-start;
 	height: 31rem;
 	background-image: url("../images/glasses-bg.png");
 	background-size: cover;
+	}
+
+#container {
+	background-color: cadetblue;
+	margin-top: 1rem;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+	align-content: center;
+	}
+	
+#logo {
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	}
+	
+#glasseswhite {
+	height: 1.5rem;
+	margin: auto 1rem auto 2rem;
+	}
+	
+h4 {
+	color: white;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	}
+	
+#menu {
+	display: none;
+	}
+	
+ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	}
+
+li {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	margin-right: 2rem;
+	}
+	
+a:link {
+	color: white;
+	text-decoration: none;
+	}
+	
+#slogan {
+	margin:10rem auto;
+	width: 1032px;
+	display: flex;
+	flex-direction: row;
+	justify-content:flex-end;
+	}
+	
+h1 {
+	text-align:right;
+	background-color: white;
+	padding: 1.5rem 5rem;
+	width: auto;
+	text-transform: uppercase;
+	font-size: 2rem;
+	font-weight: bold;
+	line-height: 1.2;
+	margin: 0;
+	}
+	
+/* Main */
+
+main {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	width: 960px;
+	}
+	
+#features {
+	display: flex;
+	flex-direction: row;
+	margin: 3rem auto;
+	height: 8rem;
+	}
+	
+.feature {
+	display: flex;
+	flex-direction: column;
+	margin: auto 3rem;
+	justify-content: space-between;
+	height: 8rem;
+	}
+	
+#document {
+	width: 3.5rem;
+	margin:auto;
+	margin-top: 0;
+	}
+	
+#ruler, #truck {
+	width: 5rem;
+	}
+	
+#features h3 {
+	text-align:center;
+	}
+	
+#moreinfo {
+	margin: auto;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	}
+	
+.extra {
+	display: flex;
+	flex-direction: column;
+	width: 35%;
+	margin-right: 5%;
+	margin-bottom: 5rem;
+	}
+	
+h2 {
+	background-color: cadetblue;
+	width: 10rem;
+	color: white;
+	text-transform: uppercase;
+	font-size: 1rem;
+	font-weight: bold;
+	padding: 0.5rem 1.25rem;
+	margin-bottom: 1rem;
+	}
+	
+	
+/* Footer */
+
+footer {
+	background-color: azure;
+	width: 960px;
+	display: flex;
+	margin: auto;
+	flex-direction: row;
+	align-items: center;
+	}
+	
+footer img {
+	height: 1.5rem;
+	margin: 4rem 1rem 4rem 4rem;
 	}
